@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <title>Products - Thread & Hooks</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #fff8f2;
+            margin: 0;
+        }
+
+        header {
+            background-color: #d98c8c;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #f2c6c6;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 10px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: white;
+            background-color: #d98c8c;
+            padding: 5px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .product {
+            border: 2px solid #d98c8c;
+            padding: 10px;
+            margin: 10px;
+            display: inline-block;
+            width: 200px;
+            text-align: center;
+            background-color: white;
+        }
+
+        .product img {
+            width: 100%;
+            height: 150px;
+        }
+
+        .product:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #d98c8c;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Our Crochet Products 🧶</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="register.html">Register</a>
+</nav>
+
+<section>
+
+    <h2>Product Categories</h2>
+
+    <!-- Unordered + Nested List -->
+    <ul>
+        <li>Bags
+            <ul>
+                <li>Tote Bags</li>
+                <li>Mini Bags</li>
+            </ul>
+        </li>
+        <li>Clothing
+            <ul>
+                <li>Scarves</li>
+                <li>Caps</li>
+            </ul>
+        </li>
+    </ul>
+
+    <hr>
+
+    <h2>Top Selling Products</h2>
+
+    <!-- Ordered List -->
+    <ol>
+        <li>Crochet Tote Bag</li>
+        <li>Woolen Scarf</li>
+        <li>Handmade Cap</li>
+    </ol>
+
+    <hr>
+
+    <h2>Product Details</h2>
+
+    <!-- Definition List -->
+    <dl>
+        <dt><b>Crochet Bag</b></dt>
+        <dd>Handmade bag made with cotton yarn.</dd>
+
+        <dt><b>Scarf</b></dt>
+        <dd>Warm and stylish for winter.</dd>
+    </dl>
+
+    <hr>
+
+    <h2>Featured Products</h2>
+
+    <!-- BONUS: Product Cards -->
+    <div class="product">
+        <img src="bag.jpg" alt="Bag">
+        <h3>Tote Bag</h3>
+        <p>₹500</p>
+    </div>
+
+    <div class="product">
+        <img src="scarf.jpg" alt="Scarf">
+        <h3>Scarf</h3>
+        <p>₹300</p>
+    </div>
+
+    <div class="product">
+        <img src="cap.jpg" alt="Cap">
+        <h3>Cap</h3>
+        <p>₹250</p>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 Thread & Hooks</p>
+</footer>
+
+</body>
+</html>

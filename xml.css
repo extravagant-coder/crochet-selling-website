@@ -1,0 +1,31 @@
+catalog {
+    display: block;
+    background-color: #fff8f2;
+    font-family: Arial;
+    padding: 20px;
+}
+
+product {
+    display: block;
+    border: 2px solid #d98c8c;
+    margin: 15px;
+    padding: 10px;
+    background-color: white;
+}
+
+name {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #d98c8c;
+}
+
+price {
+    display: block;
+    color: green;
+}
+
+color, material {
+    display: block;
+    font-style: italic;
+}

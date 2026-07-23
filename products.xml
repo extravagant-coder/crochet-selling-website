@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="xml.css"?>
+
+<catalog>
+
+    <product>
+        <name>Crochet Tote Bag</name>
+        <price>500</price>
+        <color>Beige</color>
+        <material>Cotton Yarn</material>
+    </product>
+
+    <product>
+        <name>Woolen Scarf</name>
+        <price>300</price>
+        <color>Red</color>
+        <material>Wool</material>
+    </product>
+
+    <product>
+        <name>Handmade Cap</name>
+        <price>250</price>
+        <color>Blue</color>
+        <material>Wool</material>
+    </product>
+
+</catalog>

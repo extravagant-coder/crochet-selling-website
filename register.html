@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <title>Register - Thread & Hooks</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #fff8f2;
+        }
+
+        header {
+            background-color: #d98c8c;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        table {
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+            border: 2px solid #d98c8c;
+        }
+
+        td {
+            padding: 10px;
+        }
+
+        input, textarea {
+            padding: 5px;
+            width: 100%;
+        }
+
+        .btn {
+            background-color: #d98c8c;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #b36b6b;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Register Here 📝</h1>
+</header>
+
+<form>
+
+<table>
+
+<tr>
+    <td>Name:</td>
+    <td><input type="text" name="name" required></td>
+</tr>
+
+<tr>
+    <td>Email:</td>
+    <td><input type="email" name="email" required></td>
+</tr>
+
+<tr>
+    <td>Gender:</td>
+    <td>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+    </td>
+</tr>
+
+<tr>
+    <td>Interested Products:</td>
+    <td>
+        <input type="checkbox"> Bags
+        <input type="checkbox"> Scarves
+        <input type="checkbox"> Caps
+    </td>
+</tr>
+
+<tr>
+    <td>Address:</td>
+    <td><textarea></textarea></td>
+</tr>
+
+<tr>
+    <td>City:</td>
+    <td>
+        <select>
+            <option>Delhi</option>
+            <option>Gurgaon</option>
+            <option>Noida</option>
+        </select>
+    </td>
+</tr>
+
+<tr>
+    <td colspan="2" style="text-align:center;">
+        <input type="submit" value="Register" class="btn">
+    </td>
+</tr>
+
+</table>
+
+</form>
+
+</body>
+</html>
